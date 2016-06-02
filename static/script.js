@@ -5,7 +5,7 @@
   var left   = ( wz.tool.environmentWidth() / 2 ) - ( width / 2 );
   var top    = ( wz.tool.environmentHeight() / 2 ) - ( height / 2 );
 
-  var windowObject = wz.popup( 'http://www.elmundo.es/', width, height).render();
+  var windowObject = api.popup( 'http://www.elmundo.es/', width, height).render();
 
     var timer = setInterval( function(){
 
